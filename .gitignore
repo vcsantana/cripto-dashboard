@@ -2,9 +2,6 @@
 .DS_Store
 .env
 
-# Ignorar diretórios do Cursor
-.cursor/
-
 # Ignorar diretórios de dependências e build
 node_modules/
 .dart_tool/
