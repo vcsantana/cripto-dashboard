@@ -1,4 +1,4 @@
-# Backend - Teste Técnico Erictel
+# Backend - Teste Técnico
 
 ## Pré-requisitos
 - Node.js >= 16
