@@ -1,0 +1,12 @@
+{
+  "appTitle": "Crypto Wallet",
+  "login": "Login",
+  "register": "Register",
+  "email": "Email",
+  "password": "Password",
+  "home": "Home",
+  "profile": "Profile",
+  "cryptocurrencies": "Cryptocurrencies",
+  "details": "Details",
+  "logout": "Logout"
+}

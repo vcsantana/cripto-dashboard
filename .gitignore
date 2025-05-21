@@ -1,0 +1,14 @@
+# Ignorar arquivos específicos
+.DS_Store
+.env
+
+# Ignorar diretórios do Cursor
+.cursor/
+
+# Ignorar diretórios de dependências e build
+node_modules/
+.dart_tool/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies 

@@ -1,0 +1,61 @@
+{
+  "project": "App Mobile ",
+  "sections": [
+    {
+      "title": "Frontend (Mobile App)",
+      "tasks": [
+        "Implementar login do usuário com token JWT",
+        "Implementar criação de novo usuário",
+        "Criar tela de visualização de perfil (imagem, nome, e-mail, descrição)",
+        "Permitir edição do perfil do usuário",
+        "Listar ao menos 5 criptomoedas",
+        "Criar interação ao clicar em uma criptomoeda para mostrar mais detalhes",
+        "Proteger listagem de criptomoedas para acesso apenas autenticado",
+        "Persistir a sessão localmente com JWT"
+      ]
+    },
+    {
+      "title": "Backend (API REST)",
+      "tasks": [
+        "Criar endpoint de login com retorno de JWT",
+        "Criar endpoint para novo usuário",
+        "Criar endpoints para obter e editar dados do usuário (nome, email, descrição, imagem)",
+        "Integrar com API pública de criptomoedas",
+        "Criar endpoint para listar ao menos 5 criptomoedas",
+        "Criar endpoint para buscar/filtrar criptomoedas por nome, moeda ou tipo",
+        "Persistir dados com banco de dados (preferência: MongoDB)",
+        "Documentar API com Swagger ou Postman"
+      ]
+    },
+    {
+      "title": "Integrações Externas",
+      "tasks": [
+        "Usar API pública de criptomoedas (Coinpaprika, CoinMarketCap, Alpha Vantage, etc.)"
+      ]
+    },
+    {
+      "title": "Qualidade e Arquitetura",
+      "tasks": [
+        "Usar arquitetura MVVM ou MVP",
+        "No Android: considerar uso de Coroutines, Room DB, Jetpack Libraries",
+        "Implementar testes unitários com JUnit",
+        "Implementar testes de integração",
+        "Implementar testes de interface com Espresso ou Mockito"
+      ]
+    },
+    {
+      "title": "Extras (Diferenciais)",
+      "tasks": [
+        "Dockerizar API e UI (opcional)",
+        "Usar serviços em nuvem como Firebase, AWS, GCP ou Azure (opcional)"
+      ]
+    },
+    {
+      "title": "Entrega",
+      "tasks": [
+        "Subir o código para repositório público no GitHub",
+        "Adicionar README.md com instruções de execução, tecnologias e versões"
+      ]
+    }
+  ]
+}

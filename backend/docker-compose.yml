@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo:6.0
+    container_name: erictel-mongo
+    restart: always
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+  backend:
+    build: .
+    container_name: erictel-backend
+    restart: always
+    ports:
+      - '3000:3000'
+    environment:
+      - PORT=3000
+      - MONGODB_URI=mongodb://mongo:27017/erictel
+      - JWT_SECRET=sua_chave_secreta
+      - COINMARKETCAP_API_KEY=6e20a0d8-6e97-431a-915e-00df0ff88817
+    depends_on:
+      - mongo
+    volumes:
+      - .:/app
+      - /app/node_modules
+volumes:
+  mongo_data: 

@@ -1,0 +1,12 @@
+{
+  "appTitle": "Carteira Cripto",
+  "login": "Entrar",
+  "register": "Cadastrar",
+  "email": "E-mail",
+  "password": "Senha",
+  "home": "Início",
+  "profile": "Perfil",
+  "cryptocurrencies": "Criptomoedas",
+  "details": "Detalhes",
+  "logout": "Sair"
+}
